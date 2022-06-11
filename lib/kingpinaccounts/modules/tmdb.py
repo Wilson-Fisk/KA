@@ -9,7 +9,7 @@ from kingpinaccounts.modules import log_utils
 
 API_key = control.setting('tmdb.api.key')
 if API_key == '' or API_key is None:
-	API_key = '8b481aee6902802cbaf70fdd2f558410'
+	API_key = '8dab40d33f714eac25d0cb700f51bd4d'
 
 
 class Auth:
